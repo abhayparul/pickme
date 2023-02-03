@@ -1,0 +1,1562 @@
+2023-01-30 12:44:33,378 ERROR expected string or bytes-like object
+2023-01-30 12:44:33,414 ERROR Internal Server Error: /app/Update_User_profile/2/
+Traceback (most recent call last):
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/renderers.py", line 100, in render
+    ret = json.dumps(
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib/python3.10/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/usr/lib/python3.10/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.10/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/utils/encoders.py", line 26, in default
+    return force_str(obj)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/encoding.py", line 72, in force_str
+    s = str(s)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/functional.py", line 155, in __text_cast
+    return func(*self.__args, **self.__kw)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/translation/__init__.py", line 95, in gettext
+    return _trans.gettext(message)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/translation/trans_real.py", line 371, in gettext
+    eol_message = message.replace("\r\n", "\n").replace("\r", "\n")
+AttributeError: 'TypeError' object has no attribute 'replace'
+2023-01-30 12:44:39,307 WARNING Not Found: /favicon.ico
+2023-01-30 12:45:24,227 INFO /home/test/Desktop/Python Project /CoPilot/TestCopilot/TestProject/TestProject/App/serializers.py changed, reloading.
+2023-01-30 13:16:44,193 ERROR 'id'
+2023-01-30 13:16:44,207 ERROR Internal Server Error: /app/Login/
+Traceback (most recent call last):
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/renderers.py", line 100, in render
+    ret = json.dumps(
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib/python3.10/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/usr/lib/python3.10/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.10/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/utils/encoders.py", line 26, in default
+    return force_str(obj)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/encoding.py", line 72, in force_str
+    s = str(s)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/functional.py", line 155, in __text_cast
+    return func(*self.__args, **self.__kw)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/translation/__init__.py", line 95, in gettext
+    return _trans.gettext(message)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/translation/trans_real.py", line 371, in gettext
+    eol_message = message.replace("\r\n", "\n").replace("\r", "\n")
+AttributeError: 'KeyError' object has no attribute 'replace'
+2023-01-30 13:17:29,321 ERROR 'id'
+2023-01-30 13:17:29,352 ERROR Internal Server Error: /app/Login/
+Traceback (most recent call last):
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/renderers.py", line 100, in render
+    ret = json.dumps(
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib/python3.10/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/usr/lib/python3.10/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.10/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/utils/encoders.py", line 26, in default
+    return force_str(obj)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/encoding.py", line 72, in force_str
+    s = str(s)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/functional.py", line 155, in __text_cast
+    return func(*self.__args, **self.__kw)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/translation/__init__.py", line 95, in gettext
+    return _trans.gettext(message)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/translation/trans_real.py", line 371, in gettext
+    eol_message = message.replace("\r\n", "\n").replace("\r", "\n")
+AttributeError: 'KeyError' object has no attribute 'replace'
+2023-01-30 13:17:47,937 WARNING Bad Request: /app/Login/
+2023-01-30 13:18:42,843 INFO /home/test/Desktop/Python Project /CoPilot/TestCopilot/TestProject/TestProject/App/views.py changed, reloading.
+2023-01-30 13:18:44,117 ERROR 'id'
+2023-01-30 13:18:44,136 ERROR Internal Server Error: /app/Login/
+Traceback (most recent call last):
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/renderers.py", line 100, in render
+    ret = json.dumps(
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib/python3.10/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/usr/lib/python3.10/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.10/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/utils/encoders.py", line 26, in default
+    return force_str(obj)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/encoding.py", line 72, in force_str
+    s = str(s)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/functional.py", line 155, in __text_cast
+    return func(*self.__args, **self.__kw)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/translation/__init__.py", line 95, in gettext
+    return _trans.gettext(message)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/translation/trans_real.py", line 371, in gettext
+    eol_message = message.replace("\r\n", "\n").replace("\r", "\n")
+AttributeError: 'KeyError' object has no attribute 'replace'
+2023-01-30 13:19:16,687 INFO /home/test/Desktop/Python Project /CoPilot/TestCopilot/TestProject/TestProject/App/otp_generate.py changed, reloading.
+2023-01-30 13:19:18,143 ERROR 'id'
+2023-01-30 13:19:18,160 ERROR Internal Server Error: /app/Login/
+Traceback (most recent call last):
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/renderers.py", line 100, in render
+    ret = json.dumps(
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib/python3.10/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/usr/lib/python3.10/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.10/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/utils/encoders.py", line 26, in default
+    return force_str(obj)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/encoding.py", line 72, in force_str
+    s = str(s)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/functional.py", line 155, in __text_cast
+    return func(*self.__args, **self.__kw)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/translation/__init__.py", line 95, in gettext
+    return _trans.gettext(message)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/translation/trans_real.py", line 371, in gettext
+    eol_message = message.replace("\r\n", "\n").replace("\r", "\n")
+AttributeError: 'KeyError' object has no attribute 'replace'
+2023-01-30 13:19:51,714 INFO /home/test/Desktop/Python Project /CoPilot/TestCopilot/TestProject/TestProject/App/views.py changed, reloading.
+2023-01-30 13:20:33,876 ERROR Cannot resolve keyword 'is_verify' into field. Choices are: email, exp_datetime, gen_datetime, id, is_verify_email, otp
+2023-01-30 13:21:00,737 WARNING Not Found: /favicon.ico
+2023-01-30 13:21:14,094 INFO /home/test/Desktop/Python Project /CoPilot/TestCopilot/TestProject/TestProject/App/otp_generate.py changed, reloading.
+2023-01-30 13:25:03,907 ERROR Cannot resolve keyword 'is_verify' into field. Choices are: email, exp_datetime, gen_datetime, id, is_verify_email, otp
+2023-01-30 13:25:05,343 ERROR Cannot resolve keyword 'is_verify' into field. Choices are: email, exp_datetime, gen_datetime, id, is_verify_email, otp
+2023-01-30 13:25:08,061 WARNING Not Found: /favicon.ico
+2023-01-30 13:25:54,378 INFO /home/test/Desktop/Python Project /CoPilot/TestCopilot/TestProject/TestProject/App/otp_generate.py changed, reloading.
+2023-01-30 13:26:03,719 ERROR Cannot resolve keyword 'is_verify' into field. Choices are: email, exp_datetime, gen_datetime, id, is_verify_email, otp
+2023-01-30 13:26:30,549 INFO /home/test/Desktop/Python Project /CoPilot/TestCopilot/TestProject/TestProject/App/views.py changed, reloading.
+2023-01-30 13:26:32,027 ERROR Cannot resolve keyword 'is_verify' into field. Choices are: email, exp_datetime, gen_datetime, id, is_verify_email, otp
+2023-01-30 13:26:47,944 INFO /home/test/Desktop/Python Project /CoPilot/TestCopilot/TestProject/TestProject/App/otp_generate.py changed, reloading.
+2023-01-30 13:26:51,585 ERROR Cannot resolve keyword 'is_verify' into field. Choices are: email, exp_datetime, gen_datetime, id, is_verify_email, otp
+2023-01-30 13:26:54,622 WARNING Not Found: /favicon.ico
+2023-01-30 13:27:06,554 INFO /home/test/Desktop/Python Project /CoPilot/TestCopilot/TestProject/TestProject/App/otp_generate.py changed, reloading.
+2023-01-30 13:27:40,124 ERROR Cannot resolve keyword 'is_verify' into field. Choices are: email, exp_datetime, gen_datetime, id, is_verify_email, otp
+2023-01-30 13:27:51,004 ERROR Cannot resolve keyword 'is_verify' into field. Choices are: email, exp_datetime, gen_datetime, id, is_verify_email, otp
+2023-01-30 13:28:10,521 INFO /home/test/Desktop/Python Project /CoPilot/TestCopilot/TestProject/TestProject/App/views.py changed, reloading.
+2023-01-30 13:29:11,442 ERROR Cannot resolve keyword 'is_verify' into field. Choices are: email, exp_datetime, gen_datetime, id, is_verify_email, otp
+2023-01-30 13:29:31,719 INFO /home/test/Desktop/Python Project /CoPilot/TestCopilot/TestProject/TestProject/App/otp_generate.py changed, reloading.
+2023-01-30 13:29:33,233 ERROR Cannot resolve keyword 'is_verify' into field. Choices are: email, exp_datetime, gen_datetime, id, is_verify_email, otp
+2023-01-30 14:37:27,554 ERROR 'int' object has no attribute 'user_type'
+2023-01-30 14:37:27,570 ERROR Internal Server Error: /app/Verify_Login_OTP/
+Traceback (most recent call last):
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/renderers.py", line 100, in render
+    ret = json.dumps(
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib/python3.10/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/usr/lib/python3.10/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.10/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/utils/encoders.py", line 26, in default
+    return force_str(obj)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/encoding.py", line 72, in force_str
+    s = str(s)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/functional.py", line 155, in __text_cast
+    return func(*self.__args, **self.__kw)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/translation/__init__.py", line 95, in gettext
+    return _trans.gettext(message)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/translation/trans_real.py", line 371, in gettext
+    eol_message = message.replace("\r\n", "\n").replace("\r", "\n")
+AttributeError: 'AttributeError' object has no attribute 'replace'
+2023-01-30 14:38:01,101 INFO /home/test/Desktop/Python Project /CoPilot/TestCopilot/TestProject/TestProject/App/views.py changed, reloading.
+2023-01-30 14:38:16,178 ERROR 'int' object has no attribute 'user_type'
+2023-01-30 14:38:16,201 ERROR Internal Server Error: /app/Verify_Login_OTP/
+Traceback (most recent call last):
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/renderers.py", line 100, in render
+    ret = json.dumps(
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib/python3.10/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/usr/lib/python3.10/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.10/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/utils/encoders.py", line 26, in default
+    return force_str(obj)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/encoding.py", line 72, in force_str
+    s = str(s)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/functional.py", line 155, in __text_cast
+    return func(*self.__args, **self.__kw)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/translation/__init__.py", line 95, in gettext
+    return _trans.gettext(message)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/translation/trans_real.py", line 371, in gettext
+    eol_message = message.replace("\r\n", "\n").replace("\r", "\n")
+AttributeError: 'AttributeError' object has no attribute 'replace'
+2023-01-30 14:38:33,244 INFO /home/test/Desktop/Python Project /CoPilot/TestCopilot/TestProject/TestProject/App/views.py changed, reloading.
+2023-01-30 17:49:05,882 ERROR Field 'id' expected a number but got <Location: Gotri Lake - Gotri>.
+2023-01-30 17:49:05,911 ERROR Internal Server Error: /app/Create_Proposal/
+Traceback (most recent call last):
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/renderers.py", line 100, in render
+    ret = json.dumps(
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib/python3.10/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/usr/lib/python3.10/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.10/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/utils/encoders.py", line 26, in default
+    return force_str(obj)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/encoding.py", line 72, in force_str
+    s = str(s)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/functional.py", line 155, in __text_cast
+    return func(*self.__args, **self.__kw)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/translation/__init__.py", line 95, in gettext
+    return _trans.gettext(message)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/translation/trans_real.py", line 371, in gettext
+    eol_message = message.replace("\r\n", "\n").replace("\r", "\n")
+AttributeError: 'TypeError' object has no attribute 'replace'
+2023-01-30 17:50:25,752 INFO /home/test/Desktop/Python Project /CoPilot/TestCopilot/TestProject/TestProject/App/views.py changed, reloading.
+2023-01-30 17:50:27,649 ERROR Field 'id' expected a number but got <Location: Gotri Lake - Gotri>.
+2023-01-30 17:50:27,671 ERROR Internal Server Error: /app/Create_Proposal/
+Traceback (most recent call last):
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/renderers.py", line 100, in render
+    ret = json.dumps(
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib/python3.10/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/usr/lib/python3.10/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.10/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/utils/encoders.py", line 26, in default
+    return force_str(obj)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/encoding.py", line 72, in force_str
+    s = str(s)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/functional.py", line 155, in __text_cast
+    return func(*self.__args, **self.__kw)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/translation/__init__.py", line 95, in gettext
+    return _trans.gettext(message)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/translation/trans_real.py", line 371, in gettext
+    eol_message = message.replace("\r\n", "\n").replace("\r", "\n")
+AttributeError: 'TypeError' object has no attribute 'replace'
+2023-01-30 17:51:09,094 INFO /home/test/Desktop/Python Project /CoPilot/TestCopilot/TestProject/TestProject/App/views.py changed, reloading.
+2023-01-30 17:51:15,558 ERROR Field 'id' expected a number but got <Location: Gotri Lake - Gotri>.
+2023-01-30 17:51:15,580 ERROR Internal Server Error: /app/Create_Proposal/
+Traceback (most recent call last):
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/renderers.py", line 100, in render
+    ret = json.dumps(
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib/python3.10/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/usr/lib/python3.10/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.10/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/utils/encoders.py", line 26, in default
+    return force_str(obj)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/encoding.py", line 72, in force_str
+    s = str(s)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/functional.py", line 155, in __text_cast
+    return func(*self.__args, **self.__kw)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/translation/__init__.py", line 95, in gettext
+    return _trans.gettext(message)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/translation/trans_real.py", line 371, in gettext
+    eol_message = message.replace("\r\n", "\n").replace("\r", "\n")
+AttributeError: 'TypeError' object has no attribute 'replace'
+2023-01-30 17:51:34,796 INFO /home/test/Desktop/Python Project /CoPilot/TestCopilot/TestProject/TestProject/App/serializers.py changed, reloading.
+2023-01-30 17:51:37,073 ERROR NOT NULL constraint failed: App_proposal_trip.booked_seat
+2023-01-30 17:51:37,105 ERROR Internal Server Error: /app/Create_Proposal/
+Traceback (most recent call last):
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/renderers.py", line 100, in render
+    ret = json.dumps(
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib/python3.10/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/usr/lib/python3.10/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.10/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/utils/encoders.py", line 26, in default
+    return force_str(obj)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/encoding.py", line 72, in force_str
+    s = str(s)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/functional.py", line 155, in __text_cast
+    return func(*self.__args, **self.__kw)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/translation/__init__.py", line 95, in gettext
+    return _trans.gettext(message)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/translation/trans_real.py", line 371, in gettext
+    eol_message = message.replace("\r\n", "\n").replace("\r", "\n")
+AttributeError: 'IntegrityError' object has no attribute 'replace'
+2023-01-30 17:51:52,327 INFO /home/test/Desktop/Python Project /CoPilot/TestCopilot/TestProject/TestProject/App/serializers.py changed, reloading.
+2023-01-30 17:51:53,870 ERROR NOT NULL constraint failed: App_proposal_trip.booked_seat
+2023-01-30 17:51:53,901 ERROR Internal Server Error: /app/Create_Proposal/
+Traceback (most recent call last):
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/renderers.py", line 100, in render
+    ret = json.dumps(
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib/python3.10/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/usr/lib/python3.10/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.10/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/utils/encoders.py", line 26, in default
+    return force_str(obj)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/encoding.py", line 72, in force_str
+    s = str(s)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/functional.py", line 155, in __text_cast
+    return func(*self.__args, **self.__kw)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/translation/__init__.py", line 95, in gettext
+    return _trans.gettext(message)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/translation/trans_real.py", line 371, in gettext
+    eol_message = message.replace("\r\n", "\n").replace("\r", "\n")
+AttributeError: 'IntegrityError' object has no attribute 'replace'
+2023-01-30 17:52:09,969 INFO /home/test/Desktop/Python Project /CoPilot/TestCopilot/TestProject/TestProject/App/views.py changed, reloading.
+2023-01-30 17:52:38,981 ERROR NOT NULL constraint failed: App_proposal_trip.booked_seat
+2023-01-30 17:52:39,000 ERROR Internal Server Error: /app/Create_Proposal/
+Traceback (most recent call last):
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/renderers.py", line 100, in render
+    ret = json.dumps(
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib/python3.10/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/usr/lib/python3.10/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.10/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/utils/encoders.py", line 26, in default
+    return force_str(obj)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/encoding.py", line 72, in force_str
+    s = str(s)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/functional.py", line 155, in __text_cast
+    return func(*self.__args, **self.__kw)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/translation/__init__.py", line 95, in gettext
+    return _trans.gettext(message)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/translation/trans_real.py", line 371, in gettext
+    eol_message = message.replace("\r\n", "\n").replace("\r", "\n")
+AttributeError: 'IntegrityError' object has no attribute 'replace'
+2023-01-30 17:52:40,414 ERROR NOT NULL constraint failed: App_proposal_trip.booked_seat
+2023-01-30 17:52:40,432 ERROR Internal Server Error: /app/Create_Proposal/
+Traceback (most recent call last):
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/renderers.py", line 100, in render
+    ret = json.dumps(
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib/python3.10/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/usr/lib/python3.10/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.10/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/utils/encoders.py", line 26, in default
+    return force_str(obj)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/encoding.py", line 72, in force_str
+    s = str(s)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/functional.py", line 155, in __text_cast
+    return func(*self.__args, **self.__kw)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/translation/__init__.py", line 95, in gettext
+    return _trans.gettext(message)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/translation/trans_real.py", line 371, in gettext
+    eol_message = message.replace("\r\n", "\n").replace("\r", "\n")
+AttributeError: 'IntegrityError' object has no attribute 'replace'
+2023-01-30 17:52:48,198 INFO /home/test/Desktop/Python Project /CoPilot/TestCopilot/TestProject/TestProject/App/views.py changed, reloading.
+2023-01-30 17:52:49,852 ERROR NOT NULL constraint failed: App_proposal_trip.booked_seat
+2023-01-30 17:52:49,882 ERROR Internal Server Error: /app/Create_Proposal/
+Traceback (most recent call last):
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/renderers.py", line 100, in render
+    ret = json.dumps(
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib/python3.10/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/usr/lib/python3.10/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.10/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/utils/encoders.py", line 26, in default
+    return force_str(obj)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/encoding.py", line 72, in force_str
+    s = str(s)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/functional.py", line 155, in __text_cast
+    return func(*self.__args, **self.__kw)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/translation/__init__.py", line 95, in gettext
+    return _trans.gettext(message)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/translation/trans_real.py", line 371, in gettext
+    eol_message = message.replace("\r\n", "\n").replace("\r", "\n")
+AttributeError: 'IntegrityError' object has no attribute 'replace'
+2023-01-30 17:53:36,555 INFO /home/test/Desktop/Python Project /CoPilot/TestCopilot/TestProject/TestProject/App/serializers.py changed, reloading.
+2023-01-30 17:53:41,019 ERROR NOT NULL constraint failed: App_proposal_trip.booked_seat
+2023-01-30 17:53:41,047 ERROR Internal Server Error: /app/Create_Proposal/
+Traceback (most recent call last):
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/renderers.py", line 100, in render
+    ret = json.dumps(
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib/python3.10/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/usr/lib/python3.10/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.10/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/utils/encoders.py", line 26, in default
+    return force_str(obj)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/encoding.py", line 72, in force_str
+    s = str(s)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/functional.py", line 155, in __text_cast
+    return func(*self.__args, **self.__kw)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/translation/__init__.py", line 95, in gettext
+    return _trans.gettext(message)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/translation/trans_real.py", line 371, in gettext
+    eol_message = message.replace("\r\n", "\n").replace("\r", "\n")
+AttributeError: 'IntegrityError' object has no attribute 'replace'
+2023-01-30 17:54:08,608 INFO /home/test/Desktop/Python Project /CoPilot/TestCopilot/TestProject/TestProject/App/serializers.py changed, reloading.
+2023-01-30 17:56:27,482 ERROR 'proposal_trip_serializers' object has no attribute 'get'
+2023-01-30 17:56:27,501 ERROR Internal Server Error: /app/Create_Proposal/
+Traceback (most recent call last):
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/renderers.py", line 100, in render
+    ret = json.dumps(
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib/python3.10/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/usr/lib/python3.10/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.10/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/utils/encoders.py", line 26, in default
+    return force_str(obj)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/encoding.py", line 72, in force_str
+    s = str(s)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/functional.py", line 155, in __text_cast
+    return func(*self.__args, **self.__kw)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/translation/__init__.py", line 95, in gettext
+    return _trans.gettext(message)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/translation/trans_real.py", line 371, in gettext
+    eol_message = message.replace("\r\n", "\n").replace("\r", "\n")
+AttributeError: 'AttributeError' object has no attribute 'replace'
+2023-01-30 17:56:39,190 ERROR 'proposal_trip_serializers' object has no attribute 'get'
+2023-01-30 17:56:39,203 ERROR Internal Server Error: /app/Create_Proposal/
+Traceback (most recent call last):
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/renderers.py", line 100, in render
+    ret = json.dumps(
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib/python3.10/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/usr/lib/python3.10/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.10/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/utils/encoders.py", line 26, in default
+    return force_str(obj)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/encoding.py", line 72, in force_str
+    s = str(s)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/functional.py", line 155, in __text_cast
+    return func(*self.__args, **self.__kw)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/translation/__init__.py", line 95, in gettext
+    return _trans.gettext(message)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/translation/trans_real.py", line 371, in gettext
+    eol_message = message.replace("\r\n", "\n").replace("\r", "\n")
+AttributeError: 'AttributeError' object has no attribute 'replace'
+2023-01-30 17:58:01,902 INFO /home/test/Desktop/Python Project /CoPilot/TestCopilot/TestProject/TestProject/App/serializers.py changed, reloading.
+2023-01-30 17:58:47,126 ERROR 'proposal_trip_serializers' object has no attribute 'get'
+2023-01-30 17:58:47,148 ERROR Internal Server Error: /app/Create_Proposal/
+Traceback (most recent call last):
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/renderers.py", line 100, in render
+    ret = json.dumps(
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib/python3.10/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/usr/lib/python3.10/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.10/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/utils/encoders.py", line 26, in default
+    return force_str(obj)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/encoding.py", line 72, in force_str
+    s = str(s)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/functional.py", line 155, in __text_cast
+    return func(*self.__args, **self.__kw)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/translation/__init__.py", line 95, in gettext
+    return _trans.gettext(message)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/translation/trans_real.py", line 371, in gettext
+    eol_message = message.replace("\r\n", "\n").replace("\r", "\n")
+AttributeError: 'AttributeError' object has no attribute 'replace'
+2023-01-30 17:58:51,737 ERROR 'proposal_trip_serializers' object has no attribute 'get'
+2023-01-30 17:58:51,751 ERROR Internal Server Error: /app/Create_Proposal/
+Traceback (most recent call last):
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/renderers.py", line 100, in render
+    ret = json.dumps(
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib/python3.10/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/usr/lib/python3.10/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.10/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/utils/encoders.py", line 26, in default
+    return force_str(obj)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/encoding.py", line 72, in force_str
+    s = str(s)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/functional.py", line 155, in __text_cast
+    return func(*self.__args, **self.__kw)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/translation/__init__.py", line 95, in gettext
+    return _trans.gettext(message)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/translation/trans_real.py", line 371, in gettext
+    eol_message = message.replace("\r\n", "\n").replace("\r", "\n")
+AttributeError: 'AttributeError' object has no attribute 'replace'
+2023-01-30 17:59:29,632 INFO /home/test/Desktop/Python Project /CoPilot/TestCopilot/TestProject/TestProject/App/serializers.py changed, reloading.
+2023-01-30 17:59:31,780 ERROR 'proposal_trip_serializers' object has no attribute 'get'
+2023-01-30 17:59:31,813 ERROR Internal Server Error: /app/Create_Proposal/
+Traceback (most recent call last):
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/renderers.py", line 100, in render
+    ret = json.dumps(
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib/python3.10/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/usr/lib/python3.10/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.10/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/utils/encoders.py", line 26, in default
+    return force_str(obj)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/encoding.py", line 72, in force_str
+    s = str(s)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/functional.py", line 155, in __text_cast
+    return func(*self.__args, **self.__kw)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/translation/__init__.py", line 95, in gettext
+    return _trans.gettext(message)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/translation/trans_real.py", line 371, in gettext
+    eol_message = message.replace("\r\n", "\n").replace("\r", "\n")
+AttributeError: 'AttributeError' object has no attribute 'replace'
+2023-01-30 17:59:52,941 ERROR 'proposal_trip_serializers' object has no attribute 'get'
+2023-01-30 17:59:52,961 ERROR Internal Server Error: /app/Create_Proposal/
+Traceback (most recent call last):
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/renderers.py", line 100, in render
+    ret = json.dumps(
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib/python3.10/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/usr/lib/python3.10/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.10/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/utils/encoders.py", line 26, in default
+    return force_str(obj)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/encoding.py", line 72, in force_str
+    s = str(s)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/functional.py", line 155, in __text_cast
+    return func(*self.__args, **self.__kw)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/translation/__init__.py", line 95, in gettext
+    return _trans.gettext(message)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/translation/trans_real.py", line 371, in gettext
+    eol_message = message.replace("\r\n", "\n").replace("\r", "\n")
+AttributeError: 'AttributeError' object has no attribute 'replace'
+2023-01-30 18:00:02,595 INFO /home/test/Desktop/Python Project /CoPilot/TestCopilot/TestProject/TestProject/App/serializers.py changed, reloading.
+2023-01-30 18:00:58,008 ERROR 'proposal_trip_serializers' object has no attribute 'get'
+2023-01-30 18:00:58,038 ERROR Internal Server Error: /app/Create_Proposal/
+Traceback (most recent call last):
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/renderers.py", line 100, in render
+    ret = json.dumps(
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib/python3.10/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/usr/lib/python3.10/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.10/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/utils/encoders.py", line 26, in default
+    return force_str(obj)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/encoding.py", line 72, in force_str
+    s = str(s)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/functional.py", line 155, in __text_cast
+    return func(*self.__args, **self.__kw)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/translation/__init__.py", line 95, in gettext
+    return _trans.gettext(message)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/translation/trans_real.py", line 371, in gettext
+    eol_message = message.replace("\r\n", "\n").replace("\r", "\n")
+AttributeError: 'AttributeError' object has no attribute 'replace'
+2023-01-30 18:01:48,974 INFO /home/test/Desktop/Python Project /CoPilot/TestCopilot/TestProject/TestProject/App/serializers.py changed, reloading.
+2023-01-30 18:01:50,265 ERROR 'proposal_trip_serializers' object has no attribute 'get'
+2023-01-30 18:01:50,296 ERROR Internal Server Error: /app/Create_Proposal/
+Traceback (most recent call last):
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/renderers.py", line 100, in render
+    ret = json.dumps(
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib/python3.10/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/usr/lib/python3.10/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.10/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/utils/encoders.py", line 26, in default
+    return force_str(obj)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/encoding.py", line 72, in force_str
+    s = str(s)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/functional.py", line 155, in __text_cast
+    return func(*self.__args, **self.__kw)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/translation/__init__.py", line 95, in gettext
+    return _trans.gettext(message)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/translation/trans_real.py", line 371, in gettext
+    eol_message = message.replace("\r\n", "\n").replace("\r", "\n")
+AttributeError: 'AttributeError' object has no attribute 'replace'
+2023-01-30 18:01:58,356 INFO /home/test/Desktop/Python Project /CoPilot/TestCopilot/TestProject/TestProject/App/serializers.py changed, reloading.
+2023-01-30 18:02:00,462 ERROR 'proposal_trip_serializers' object has no attribute 'get'
+2023-01-30 18:02:00,481 ERROR Internal Server Error: /app/Create_Proposal/
+Traceback (most recent call last):
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/renderers.py", line 100, in render
+    ret = json.dumps(
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib/python3.10/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/usr/lib/python3.10/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.10/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/utils/encoders.py", line 26, in default
+    return force_str(obj)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/encoding.py", line 72, in force_str
+    s = str(s)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/functional.py", line 155, in __text_cast
+    return func(*self.__args, **self.__kw)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/translation/__init__.py", line 95, in gettext
+    return _trans.gettext(message)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/translation/trans_real.py", line 371, in gettext
+    eol_message = message.replace("\r\n", "\n").replace("\r", "\n")
+AttributeError: 'AttributeError' object has no attribute 'replace'
+2023-01-30 18:02:20,091 INFO /home/test/Desktop/Python Project /CoPilot/TestCopilot/TestProject/TestProject/App/serializers.py changed, reloading.
+2023-01-30 18:02:21,961 ERROR 'proposal_trip_serializers' object has no attribute 'get'
+2023-01-30 18:02:21,993 ERROR Internal Server Error: /app/Create_Proposal/
+Traceback (most recent call last):
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/renderers.py", line 100, in render
+    ret = json.dumps(
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib/python3.10/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/usr/lib/python3.10/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.10/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/utils/encoders.py", line 26, in default
+    return force_str(obj)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/encoding.py", line 72, in force_str
+    s = str(s)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/functional.py", line 155, in __text_cast
+    return func(*self.__args, **self.__kw)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/translation/__init__.py", line 95, in gettext
+    return _trans.gettext(message)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/translation/trans_real.py", line 371, in gettext
+    eol_message = message.replace("\r\n", "\n").replace("\r", "\n")
+AttributeError: 'AttributeError' object has no attribute 'replace'
+2023-01-30 18:03:15,741 INFO /home/test/Desktop/Python Project /CoPilot/TestCopilot/TestProject/TestProject/App/serializers.py changed, reloading.
+2023-01-30 18:03:17,570 ERROR 'proposal_trip_serializers' object has no attribute 'get'
+2023-01-30 18:03:17,594 ERROR Internal Server Error: /app/Create_Proposal/
+Traceback (most recent call last):
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/renderers.py", line 100, in render
+    ret = json.dumps(
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib/python3.10/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/usr/lib/python3.10/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.10/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/utils/encoders.py", line 26, in default
+    return force_str(obj)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/encoding.py", line 72, in force_str
+    s = str(s)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/functional.py", line 155, in __text_cast
+    return func(*self.__args, **self.__kw)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/translation/__init__.py", line 95, in gettext
+    return _trans.gettext(message)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/translation/trans_real.py", line 371, in gettext
+    eol_message = message.replace("\r\n", "\n").replace("\r", "\n")
+AttributeError: 'AttributeError' object has no attribute 'replace'
+2023-01-30 18:03:58,942 INFO /home/test/Desktop/Python Project /CoPilot/TestCopilot/TestProject/TestProject/App/serializers.py changed, reloading.
+2023-01-30 18:04:00,756 ERROR 'proposal_trip_serializers' object has no attribute 'get'
+2023-01-30 18:04:00,776 ERROR Internal Server Error: /app/Create_Proposal/
+Traceback (most recent call last):
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/renderers.py", line 100, in render
+    ret = json.dumps(
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib/python3.10/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/usr/lib/python3.10/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.10/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/utils/encoders.py", line 26, in default
+    return force_str(obj)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/encoding.py", line 72, in force_str
+    s = str(s)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/functional.py", line 155, in __text_cast
+    return func(*self.__args, **self.__kw)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/translation/__init__.py", line 95, in gettext
+    return _trans.gettext(message)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/translation/trans_real.py", line 371, in gettext
+    eol_message = message.replace("\r\n", "\n").replace("\r", "\n")
+AttributeError: 'AttributeError' object has no attribute 'replace'
+2023-01-30 18:04:27,923 INFO /home/test/Desktop/Python Project /CoPilot/TestCopilot/TestProject/TestProject/App/views.py changed, reloading.
+2023-01-30 18:04:29,629 ERROR 'proposal_trip_serializers' object has no attribute 'get'
+2023-01-30 18:04:29,659 ERROR Internal Server Error: /app/Create_Proposal/
+Traceback (most recent call last):
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/renderers.py", line 100, in render
+    ret = json.dumps(
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib/python3.10/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/usr/lib/python3.10/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.10/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/utils/encoders.py", line 26, in default
+    return force_str(obj)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/encoding.py", line 72, in force_str
+    s = str(s)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/functional.py", line 155, in __text_cast
+    return func(*self.__args, **self.__kw)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/translation/__init__.py", line 95, in gettext
+    return _trans.gettext(message)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/translation/trans_real.py", line 371, in gettext
+    eol_message = message.replace("\r\n", "\n").replace("\r", "\n")
+AttributeError: 'AttributeError' object has no attribute 'replace'
+2023-01-30 18:04:47,698 INFO /home/test/Desktop/Python Project /CoPilot/TestCopilot/TestProject/TestProject/App/serializers.py changed, reloading.
+2023-01-30 18:05:32,054 ERROR 'proposal_trip_serializers' object has no attribute 'get'
+2023-01-30 18:05:32,087 ERROR Internal Server Error: /app/Create_Proposal/
+Traceback (most recent call last):
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/renderers.py", line 100, in render
+    ret = json.dumps(
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib/python3.10/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/usr/lib/python3.10/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.10/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/utils/encoders.py", line 26, in default
+    return force_str(obj)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/encoding.py", line 72, in force_str
+    s = str(s)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/functional.py", line 155, in __text_cast
+    return func(*self.__args, **self.__kw)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/translation/__init__.py", line 95, in gettext
+    return _trans.gettext(message)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/translation/trans_real.py", line 371, in gettext
+    eol_message = message.replace("\r\n", "\n").replace("\r", "\n")
+AttributeError: 'AttributeError' object has no attribute 'replace'
+2023-01-30 18:06:35,073 INFO /home/test/Desktop/Python Project /CoPilot/TestCopilot/TestProject/TestProject/App/serializers.py changed, reloading.
+2023-01-30 18:06:36,207 ERROR 'proposal_trip_serializers' object has no attribute 'get'
+2023-01-30 18:06:36,225 ERROR Internal Server Error: /app/Create_Proposal/
+Traceback (most recent call last):
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/renderers.py", line 100, in render
+    ret = json.dumps(
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib/python3.10/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/usr/lib/python3.10/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.10/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/utils/encoders.py", line 26, in default
+    return force_str(obj)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/encoding.py", line 72, in force_str
+    s = str(s)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/functional.py", line 155, in __text_cast
+    return func(*self.__args, **self.__kw)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/translation/__init__.py", line 95, in gettext
+    return _trans.gettext(message)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/translation/trans_real.py", line 371, in gettext
+    eol_message = message.replace("\r\n", "\n").replace("\r", "\n")
+AttributeError: 'AttributeError' object has no attribute 'replace'
+2023-01-30 18:07:31,849 INFO /home/test/Desktop/Python Project /CoPilot/TestCopilot/TestProject/TestProject/App/views.py changed, reloading.
+2023-01-30 18:07:32,846 ERROR {'password_validation': [ErrorDetail(string='Invalid Password Validation', code='invalid')]}
+2023-01-30 18:07:32,874 ERROR Internal Server Error: /app/Create_Proposal/
+Traceback (most recent call last):
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/renderers.py", line 100, in render
+    ret = json.dumps(
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib/python3.10/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/usr/lib/python3.10/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.10/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/utils/encoders.py", line 26, in default
+    return force_str(obj)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/encoding.py", line 72, in force_str
+    s = str(s)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/functional.py", line 155, in __text_cast
+    return func(*self.__args, **self.__kw)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/translation/__init__.py", line 95, in gettext
+    return _trans.gettext(message)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/translation/trans_real.py", line 371, in gettext
+    eol_message = message.replace("\r\n", "\n").replace("\r", "\n")
+AttributeError: 'ValidationError' object has no attribute 'replace'
+2023-01-30 18:07:40,181 INFO /home/test/Desktop/Python Project /CoPilot/TestCopilot/TestProject/TestProject/App/views.py changed, reloading.
+2023-01-30 18:09:28,692 ERROR 'proposal_trip_serializers' object has no attribute 'get'
+2023-01-30 18:09:28,711 ERROR Internal Server Error: /app/Create_Proposal/
+Traceback (most recent call last):
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/renderers.py", line 100, in render
+    ret = json.dumps(
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib/python3.10/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/usr/lib/python3.10/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.10/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/utils/encoders.py", line 26, in default
+    return force_str(obj)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/encoding.py", line 72, in force_str
+    s = str(s)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/functional.py", line 155, in __text_cast
+    return func(*self.__args, **self.__kw)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/translation/__init__.py", line 95, in gettext
+    return _trans.gettext(message)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/translation/trans_real.py", line 371, in gettext
+    eol_message = message.replace("\r\n", "\n").replace("\r", "\n")
+AttributeError: 'AttributeError' object has no attribute 'replace'
+2023-01-30 18:11:18,114 ERROR 'proposal_trip_serializers' object has no attribute 'get'
+2023-01-30 18:11:18,135 ERROR Internal Server Error: /app/Create_Proposal/
+Traceback (most recent call last):
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/renderers.py", line 100, in render
+    ret = json.dumps(
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib/python3.10/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/usr/lib/python3.10/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.10/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/utils/encoders.py", line 26, in default
+    return force_str(obj)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/encoding.py", line 72, in force_str
+    s = str(s)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/functional.py", line 155, in __text_cast
+    return func(*self.__args, **self.__kw)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/translation/__init__.py", line 95, in gettext
+    return _trans.gettext(message)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/translation/trans_real.py", line 371, in gettext
+    eol_message = message.replace("\r\n", "\n").replace("\r", "\n")
+AttributeError: 'AttributeError' object has no attribute 'replace'
+2023-01-30 18:12:57,205 INFO /home/test/Desktop/Python Project /CoPilot/TestCopilot/TestProject/TestProject/App/views.py changed, reloading.
+2023-01-30 18:13:35,375 ERROR 'proposal_trip_serializers' object has no attribute 'get'
+2023-01-30 18:13:35,391 ERROR Internal Server Error: /app/Create_Proposal/
+Traceback (most recent call last):
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/renderers.py", line 100, in render
+    ret = json.dumps(
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib/python3.10/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/usr/lib/python3.10/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.10/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/utils/encoders.py", line 26, in default
+    return force_str(obj)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/encoding.py", line 72, in force_str
+    s = str(s)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/functional.py", line 155, in __text_cast
+    return func(*self.__args, **self.__kw)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/translation/__init__.py", line 95, in gettext
+    return _trans.gettext(message)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/translation/trans_real.py", line 371, in gettext
+    eol_message = message.replace("\r\n", "\n").replace("\r", "\n")
+AttributeError: 'AttributeError' object has no attribute 'replace'
+2023-01-30 18:13:44,701 INFO /home/test/Desktop/Python Project /CoPilot/TestCopilot/TestProject/TestProject/App/serializers.py changed, reloading.
+2023-01-30 18:14:47,914 ERROR 'proposal_trip_serializers' object has no attribute 'get'
+2023-01-30 18:14:47,942 ERROR Internal Server Error: /app/Create_Proposal/
+Traceback (most recent call last):
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/renderers.py", line 100, in render
+    ret = json.dumps(
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib/python3.10/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/usr/lib/python3.10/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.10/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/utils/encoders.py", line 26, in default
+    return force_str(obj)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/encoding.py", line 72, in force_str
+    s = str(s)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/functional.py", line 155, in __text_cast
+    return func(*self.__args, **self.__kw)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/translation/__init__.py", line 95, in gettext
+    return _trans.gettext(message)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/translation/trans_real.py", line 371, in gettext
+    eol_message = message.replace("\r\n", "\n").replace("\r", "\n")
+AttributeError: 'AttributeError' object has no attribute 'replace'
+2023-01-30 18:15:35,905 INFO /home/test/Desktop/Python Project /CoPilot/TestCopilot/TestProject/TestProject/App/serializers.py changed, reloading.
+2023-01-30 18:15:39,257 ERROR 'proposal_trip_serializers' object has no attribute 'get'
+2023-01-30 18:15:39,286 ERROR Internal Server Error: /app/Create_Proposal/
+Traceback (most recent call last):
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/renderers.py", line 100, in render
+    ret = json.dumps(
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib/python3.10/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/usr/lib/python3.10/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.10/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/utils/encoders.py", line 26, in default
+    return force_str(obj)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/encoding.py", line 72, in force_str
+    s = str(s)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/functional.py", line 155, in __text_cast
+    return func(*self.__args, **self.__kw)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/translation/__init__.py", line 95, in gettext
+    return _trans.gettext(message)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/translation/trans_real.py", line 371, in gettext
+    eol_message = message.replace("\r\n", "\n").replace("\r", "\n")
+AttributeError: 'AttributeError' object has no attribute 'replace'
+2023-01-30 18:20:43,863 INFO /home/test/Desktop/Python Project /CoPilot/TestCopilot/TestProject/TestProject/App/serializers.py changed, reloading.
+2023-01-30 18:20:56,564 ERROR 'proposal_trip_serializers' object has no attribute 'get'
+2023-01-30 18:20:56,584 ERROR Internal Server Error: /app/Create_Proposal/
+Traceback (most recent call last):
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/renderers.py", line 100, in render
+    ret = json.dumps(
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib/python3.10/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/usr/lib/python3.10/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.10/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/utils/encoders.py", line 26, in default
+    return force_str(obj)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/encoding.py", line 72, in force_str
+    s = str(s)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/functional.py", line 155, in __text_cast
+    return func(*self.__args, **self.__kw)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/translation/__init__.py", line 95, in gettext
+    return _trans.gettext(message)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/translation/trans_real.py", line 371, in gettext
+    eol_message = message.replace("\r\n", "\n").replace("\r", "\n")
+AttributeError: 'AttributeError' object has no attribute 'replace'
+2023-01-30 18:21:07,617 INFO /home/test/Desktop/Python Project /CoPilot/TestCopilot/TestProject/TestProject/App/serializers.py changed, reloading.
+2023-01-30 18:21:10,665 ERROR 'proposal_trip_serializers' object has no attribute 'get'
+2023-01-30 18:21:10,683 ERROR Internal Server Error: /app/Create_Proposal/
+Traceback (most recent call last):
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/renderers.py", line 100, in render
+    ret = json.dumps(
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib/python3.10/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/usr/lib/python3.10/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.10/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/utils/encoders.py", line 26, in default
+    return force_str(obj)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/encoding.py", line 72, in force_str
+    s = str(s)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/functional.py", line 155, in __text_cast
+    return func(*self.__args, **self.__kw)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/translation/__init__.py", line 95, in gettext
+    return _trans.gettext(message)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/translation/trans_real.py", line 371, in gettext
+    eol_message = message.replace("\r\n", "\n").replace("\r", "\n")
+AttributeError: 'AttributeError' object has no attribute 'replace'
+2023-01-30 18:26:02,473 INFO /home/test/Desktop/Python Project /CoPilot/TestCopilot/TestProject/TestProject/App/views.py changed, reloading.
+2023-01-30 18:26:05,317 ERROR 'proposal_trip_serializers' object has no attribute 'get'
+2023-01-30 18:26:05,350 ERROR Internal Server Error: /app/Create_Proposal/
+Traceback (most recent call last):
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/renderers.py", line 100, in render
+    ret = json.dumps(
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib/python3.10/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/usr/lib/python3.10/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.10/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/utils/encoders.py", line 26, in default
+    return force_str(obj)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/encoding.py", line 72, in force_str
+    s = str(s)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/functional.py", line 155, in __text_cast
+    return func(*self.__args, **self.__kw)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/translation/__init__.py", line 95, in gettext
+    return _trans.gettext(message)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/translation/trans_real.py", line 371, in gettext
+    eol_message = message.replace("\r\n", "\n").replace("\r", "\n")
+AttributeError: 'AttributeError' object has no attribute 'replace'
+2023-01-30 18:26:10,362 ERROR 'proposal_trip_serializers' object has no attribute 'get'
+2023-01-30 18:26:10,374 ERROR Internal Server Error: /app/Create_Proposal/
+Traceback (most recent call last):
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/renderers.py", line 100, in render
+    ret = json.dumps(
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib/python3.10/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/usr/lib/python3.10/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.10/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/utils/encoders.py", line 26, in default
+    return force_str(obj)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/encoding.py", line 72, in force_str
+    s = str(s)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/functional.py", line 155, in __text_cast
+    return func(*self.__args, **self.__kw)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/translation/__init__.py", line 95, in gettext
+    return _trans.gettext(message)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/translation/trans_real.py", line 371, in gettext
+    eol_message = message.replace("\r\n", "\n").replace("\r", "\n")
+AttributeError: 'AttributeError' object has no attribute 'replace'
+2023-01-30 18:28:49,903 INFO /home/test/Desktop/Python Project /CoPilot/TestCopilot/TestProject/TestProject/App/serializers.py changed, reloading.
+2023-01-30 18:29:10,255 ERROR 'Vehical_owner_serializers' object has no attribute 'get'
+2023-01-30 18:29:10,272 ERROR Internal Server Error: /app/Create_Proposal/
+Traceback (most recent call last):
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/renderers.py", line 100, in render
+    ret = json.dumps(
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib/python3.10/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/usr/lib/python3.10/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.10/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/utils/encoders.py", line 26, in default
+    return force_str(obj)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/encoding.py", line 72, in force_str
+    s = str(s)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/functional.py", line 155, in __text_cast
+    return func(*self.__args, **self.__kw)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/translation/__init__.py", line 95, in gettext
+    return _trans.gettext(message)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/translation/trans_real.py", line 371, in gettext
+    eol_message = message.replace("\r\n", "\n").replace("\r", "\n")
+AttributeError: 'AttributeError' object has no attribute 'replace'
+2023-01-30 18:29:11,592 ERROR 'Vehical_owner_serializers' object has no attribute 'get'
+2023-01-30 18:29:11,606 ERROR Internal Server Error: /app/Create_Proposal/
+Traceback (most recent call last):
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/renderers.py", line 100, in render
+    ret = json.dumps(
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib/python3.10/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/usr/lib/python3.10/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.10/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/utils/encoders.py", line 26, in default
+    return force_str(obj)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/encoding.py", line 72, in force_str
+    s = str(s)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/functional.py", line 155, in __text_cast
+    return func(*self.__args, **self.__kw)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/translation/__init__.py", line 95, in gettext
+    return _trans.gettext(message)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/translation/trans_real.py", line 371, in gettext
+    eol_message = message.replace("\r\n", "\n").replace("\r", "\n")
+AttributeError: 'AttributeError' object has no attribute 'replace'
+2023-01-30 18:29:40,789 WARNING view's Get_FAQ_views raised exception during schema generation; use `getattr(self, 'swagger_fake_view', False)` to detect and short-circuit this
+Traceback (most recent call last):
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/drf_yasg/inspectors/base.py", line 42, in call_view_method
+    return view_method()
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/generics.py", line 63, in get_queryset
+    assert self.queryset is not None, (
+AssertionError: 'Get_FAQ_views' should either include a `queryset` attribute, or override the `get_queryset()` method.
+2023-01-30 18:29:40,790 WARNING view's Update_User_Profile raised exception during schema generation; use `getattr(self, 'swagger_fake_view', False)` to detect and short-circuit this
+Traceback (most recent call last):
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/drf_yasg/inspectors/base.py", line 42, in call_view_method
+    return view_method()
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/generics.py", line 63, in get_queryset
+    assert self.queryset is not None, (
+AssertionError: 'Update_User_Profile' should either include a `queryset` attribute, or override the `get_queryset()` method.
+2023-01-30 18:29:40,790 WARNING view's Update_FAQ_views raised exception during schema generation; use `getattr(self, 'swagger_fake_view', False)` to detect and short-circuit this
+Traceback (most recent call last):
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/drf_yasg/inspectors/base.py", line 42, in call_view_method
+    return view_method()
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/generics.py", line 63, in get_queryset
+    assert self.queryset is not None, (
+AssertionError: 'Update_FAQ_views' should either include a `queryset` attribute, or override the `get_queryset()` method.
+2023-01-30 18:29:40,797 WARNING view's Review_by_Rating_View raised exception during schema generation; use `getattr(self, 'swagger_fake_view', False)` to detect and short-circuit this
+Traceback (most recent call last):
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/drf_yasg/inspectors/base.py", line 42, in call_view_method
+    return view_method()
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/generics.py", line 108, in get_serializer
+    serializer_class = self.get_serializer_class()
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/generics.py", line 122, in get_serializer_class
+    assert self.serializer_class is not None, (
+AssertionError: 'Review_by_Rating_View' should either include a `serializer_class` attribute, or override the `get_serializer_class()` method.
+2023-01-30 18:31:26,237 INFO /home/test/Desktop/Python Project /CoPilot/TestCopilot/TestProject/TestProject/App/serializers.py changed, reloading.
+2023-01-30 18:31:31,539 ERROR 'Vehical_owner_serializers' object has no attribute 'get'
+2023-01-30 18:31:31,563 ERROR Internal Server Error: /app/Create_Proposal/
+Traceback (most recent call last):
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/renderers.py", line 100, in render
+    ret = json.dumps(
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib/python3.10/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/usr/lib/python3.10/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.10/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/utils/encoders.py", line 26, in default
+    return force_str(obj)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/encoding.py", line 72, in force_str
+    s = str(s)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/functional.py", line 155, in __text_cast
+    return func(*self.__args, **self.__kw)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/translation/__init__.py", line 95, in gettext
+    return _trans.gettext(message)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/translation/trans_real.py", line 371, in gettext
+    eol_message = message.replace("\r\n", "\n").replace("\r", "\n")
+AttributeError: 'AttributeError' object has no attribute 'replace'
+2023-01-30 18:32:15,860 INFO /home/test/Desktop/Python Project /CoPilot/TestCopilot/TestProject/TestProject/App/serializers.py changed, reloading.
+2023-01-30 18:32:39,581 ERROR 'Vehical_owner_serializers' object has no attribute 'get'
+2023-01-30 18:32:39,597 ERROR Internal Server Error: /app/Create_Proposal/
+Traceback (most recent call last):
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/renderers.py", line 100, in render
+    ret = json.dumps(
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib/python3.10/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/usr/lib/python3.10/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.10/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/utils/encoders.py", line 26, in default
+    return force_str(obj)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/encoding.py", line 72, in force_str
+    s = str(s)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/functional.py", line 155, in __text_cast
+    return func(*self.__args, **self.__kw)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/translation/__init__.py", line 95, in gettext
+    return _trans.gettext(message)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/translation/trans_real.py", line 371, in gettext
+    eol_message = message.replace("\r\n", "\n").replace("\r", "\n")
+AttributeError: 'AttributeError' object has no attribute 'replace'
+2023-01-30 18:33:08,373 INFO /home/test/Desktop/Python Project /CoPilot/TestCopilot/TestProject/TestProject/App/views.py changed, reloading.
+2023-01-30 18:33:49,048 ERROR 'Vehical_owner_serializers' object has no attribute 'get'
+2023-01-30 18:33:49,070 ERROR Internal Server Error: /app/Create_Proposal/
+Traceback (most recent call last):
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/renderers.py", line 100, in render
+    ret = json.dumps(
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib/python3.10/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/usr/lib/python3.10/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.10/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/rest_framework/utils/encoders.py", line 26, in default
+    return force_str(obj)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/encoding.py", line 72, in force_str
+    s = str(s)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/functional.py", line 155, in __text_cast
+    return func(*self.__args, **self.__kw)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/translation/__init__.py", line 95, in gettext
+    return _trans.gettext(message)
+  File "/home/test/Desktop/Python Project /CoPilot/copilot-env/lib/python3.10/site-packages/django/utils/translation/trans_real.py", line 371, in gettext
+    eol_message = message.replace("\r\n", "\n").replace("\r", "\n")
+AttributeError: 'AttributeError' object has no attribute 'replace'
+2023-01-30 18:37:13,416 INFO /home/test/Desktop/Python Project /CoPilot/TestCopilot/TestProject/TestProject/App/views.py changed, reloading.
