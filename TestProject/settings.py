@@ -48,7 +48,7 @@ DEBUG = config("DEBUG")
 """
 
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [".vercel.app"]
 
 
 # Application definition
