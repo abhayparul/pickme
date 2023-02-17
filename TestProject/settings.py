@@ -35,10 +35,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 *************************************
 """
 
-SECRET_KEY = config("SECRET_KEY")
+SECRET_KEY = 'django-insecure-u1d_n5m5)liwo95*43g%l!7zdl5uv3sjrao8#=d2im48z88&34'
 
 
-DEBUG = config("DEBUG")
+DEBUG = True
 
 
 """
@@ -292,12 +292,12 @@ SIMPLE_JWT = {
 *************************************
 """
 
-EMAIL_BACKEND = config("EMAIL_BACKEND")
-EMAIL_USE_TLS = config("EMAIL_USE_TLS")
-EMAIL_HOST = config("EMAIL_HOST")
-EMAIL_PORT = config("EMAIL_PORT")
-EMAIL_HOST_USER = config("EMAIL_HOST_USER")
-EMAIL_HOST_PASSWORD = config("EMAIL_HOST_PASSWORD")
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_USE_TLS = True
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_HOST_USER = 'ks4223838@gmail.com'
+EMAIL_HOST_PASSWORD = 'icawftyqjjbsjxng'
 
 
 """
@@ -326,5 +326,7 @@ Handling Redirects to Mobile App & The Frontend
 """
 
 
-FRONTEND_URL = config("FRONTEND_URL")
-APP_SCHEME = config("APP_SCHEME")
+FRONTEND_URL = "https://www.google.com/"
+APP_SCHEME = "https://www.google.com/"
+
+JWT_ALGORITHMS = 'HS256'
