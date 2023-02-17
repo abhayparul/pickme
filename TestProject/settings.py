@@ -48,7 +48,7 @@ DEBUG = False
 """
 
 
-ALLOWED_HOSTS = [".vercel.app"]
+ALLOWED_HOSTS = [".vercel.app", ".now.sh"]
 
 
 # Application definition
@@ -202,8 +202,7 @@ USE_TZ = True
 """
 
 # ******************  Static   ******************
-STATIC_ROOT = os.path.abspath(os.path.join(
-    BASE_DIR, 'ProjectCLB', 'static'))
+
 
 STATIC_URL = '/static/'
 
